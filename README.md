@@ -14,6 +14,6 @@ pip install -e .
 from sophy import Sophy
 
 # Set SLACK_TOKEN environment variable first
-slack_notifier = Sophy('user@example.com')
-slack_notifier.notify('Hello from Sophy!')
+sophy = Sophy('user@example.com')
+sophy.notify('Hello from Sophy!')
 ```
