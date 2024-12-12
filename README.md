@@ -11,9 +11,9 @@ pip install -e .
 ## Usage
 
 ```python
-from pysophy import Sophy
+from sophy import Sophy
 
 # Set SLACK_TOKEN environment variable first
-sophy = Sophy('user@example.com')
-sophy.notify('Hello from Sophy!')
+slackbot = Sophy('user@example.com')
+slackbot.notify('Hello World!')
 ```
