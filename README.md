@@ -11,7 +11,7 @@ pip install -e .
 ## Usage
 
 ```python
-from sophy import Sophy
+from pysophy import Sophy
 
 # Set SLACK_TOKEN environment variable first
 sophy = Sophy('user@example.com')
