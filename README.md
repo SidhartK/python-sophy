@@ -5,7 +5,7 @@ A simple Slack notification utility.
 ## Installation
 
 ```bash
-pip install -e .
+pip install sophy-python
 ```
 
 ## Usage
