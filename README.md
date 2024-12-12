@@ -11,9 +11,9 @@ pip install -e .
 ## Usage
 
 ```python
-from sophy import Sophy
+from sophy import Slackbot
 
 # Set SLACK_TOKEN environment variable first
-slackbot = Sophy('user@example.com')
-slackbot.notify('Hello World!')
+bot = Slackbot('user@example.com')
+bot.notify('Hello from Sophy!')
 ```
